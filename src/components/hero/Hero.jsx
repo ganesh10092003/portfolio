@@ -1,14 +1,10 @@
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
-import { FaPlay } from "react-icons/fa";
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
-import whiteCircle from "../../assets/whiteCircle.png";
 import mine from "../../assets/mine.jpeg";
 
 const Hero = () => {
@@ -73,9 +69,15 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/insta_ganesh_2003/">
+                <a href="https://leetcode.com/Ganesh_2003/">
                   {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <SiLeetcode className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                </a>
+              </li>
+              <li>
+                <a href="https://auth.geeksforgeeks.org/user/chtejamr">
+                  {" "}
+                  <SiGeeksforgeeks className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>

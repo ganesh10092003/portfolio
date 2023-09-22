@@ -21,7 +21,7 @@ export const data = [
   {
     id: 3,
     img: portfolio,
-    title: "PortFolio",
+    title: "Portfolio",
     desc: "Explore my portfolio site, meticulously crafted with ReactJS and Tailwind CSS. It not only showcases my work but also represents my unwavering commitment to producing elegant, user-centric web interfaces. This project highlights my technical proficiency and design finesse.",
     link: "https://cstganesh.vercel.app/",
     git: "https://github.com/ganesh10092003/portfolio",
