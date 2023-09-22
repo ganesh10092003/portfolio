@@ -1,5 +1,5 @@
 import eBlood from "../assets/eBlood.png"
-import portfolio from "../assets/portfolio.png"
+import portfolio from "../assets/portFolio.png"
 export const data = [
   {
     id: 1,
@@ -23,6 +23,6 @@ export const data = [
     title: "PortFolio",
     desc: "",
     link: "",
-    git: "",
+    git: "https://github.com/ganesh10092003/portfolio",
   }
 ];
