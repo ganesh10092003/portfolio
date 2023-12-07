@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const ProgressBar = ({ logo, name, value, duration = 3 }) => {
+const ProgressBar = ({ logo, name, value, duration = 2 }) => {
   return (
     <div className="flex flex-col gap-2 sm:gap-1 text-xl font-semibold ">
       <div className="flex justify-between">

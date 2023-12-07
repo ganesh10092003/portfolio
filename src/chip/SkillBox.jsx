@@ -3,9 +3,9 @@ import React from "react";
 const SkillBox = ({ logo, black, white, skill }) => {
   return (
     <div
-    data-aos="zoom-in" data-aos-duration="1000"
+      data-aos="zoom-in" data-aos-duration="1000"
       className={
-        "box w-[11rem] h-[11rem] rounded-lg bg-" +
+        "box w-[9.5rem] h-[9.5rem] rounded-lg bg-" +
         black +
         " text-" +
         white +
@@ -18,7 +18,7 @@ const SkillBox = ({ logo, black, white, skill }) => {
           white +
           " text-" +
           black +
-          " w-14 sm:w-12 exsm:w-10 h-14 sm:h-12 exsm:h-10 p-2 rounded-full flex items-center justify-center text-6xl sm:text-4xl"
+          " w-12 sm:w-10 exsm:w-8 h-12 sm:h-10 exsm:h-8 p-2 rounded-full flex items-center justify-center text-5xl sm:text-3xl"
         }
       >
         {logo}

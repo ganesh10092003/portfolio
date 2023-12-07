@@ -22,7 +22,7 @@ const Hero = () => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Web Developer",
+                "MERN Stack Web Developer",
                 2000,
                 "Competitive Programmer",
                 2000,
