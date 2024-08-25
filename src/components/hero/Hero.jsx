@@ -36,7 +36,7 @@ const Hero = () => {
             <p
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Currently a pre-final Year at NIT-Rourkela
+              Currently a Final Year at NIT-Rourkela
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
